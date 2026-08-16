@@ -6,7 +6,7 @@ const app = express()
 // API Key Check
 const apiKey = process.env.HB_API_KEY
 
-if (!apiKey || apiKey === "") {
+if (!apiKey || apiKey === "sk_live_X7pT4vclo5HnnjZJcEO-jTJ6lKtYnd8ZZAQ41UMedCI") {
     console.error("API Key is not set, did you set the HB_API_KEY environment variable to your API key?")
 }
 
